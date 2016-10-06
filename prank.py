@@ -1,10 +1,10 @@
-# import os
+import os
 
 print('test')
 
-# def rename_files():
+def rename_files():
 
-    # file list = os.listdir("/Users/greggarcia/Desktop")
-    # print(file_list)
+     file_list = os.listdir("./files")
+     print(file_list)
 
-    # rename_files()
+rename_files()
