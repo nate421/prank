@@ -10,6 +10,6 @@ def rename_files():
      for file_name in file_list:
         file_path = saved_path + "/files/" + file_name
         print(file_path)
-    #      os.rename(file_name, file_name.translate(None, "0123456789"))
+        os.rename(file_path, file_name.translate(None, "0123456789"))
 
 rename_files()
